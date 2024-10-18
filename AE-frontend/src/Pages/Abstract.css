@@ -1,0 +1,23 @@
+.main-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sub-heading {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  
+  .abstract-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .abstract-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  img{
+    width: 2500px;
+    height: 400px;
+  }

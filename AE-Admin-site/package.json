@@ -1,0 +1,62 @@
+{
+  "name": "site-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "@zegocloud/zego-uikit-prebuilt": "^2.0.1",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.1",
+    "chart.js": "^4.4.3",
+    "date-fns": "^2.30.0",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.390.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.1.0",
+    "react-router-dom": "^6.17.0",
+    "vite": "^5.2.9",
+    "vite-plugin-svgr": "^4.2.0",
+    "vite-tsconfig-paths": "^4.3.2",
+    "web-vitals": "^2.1.4",
+    "zego-zim-web": "^2.15.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}

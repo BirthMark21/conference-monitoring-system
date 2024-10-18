@@ -1,0 +1,19 @@
+.img-box {
+    width: 15%;
+    padding: 10px;
+}
+
+.dash-background {
+    background-color: #d5ecf2d0;
+}
+
+
+
+
+#loginimg {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url('./img/event_banner.png');
+    background-position: right;
+    background-size: cover;
+    height: 100vh;
+  
+  }

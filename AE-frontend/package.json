@@ -1,0 +1,57 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@zegocloud/zego-uikit-prebuilt": "^2.0.1",
+    "agora-rtc-react": "^2.1.0",
+    "agora-rtc-sdk-ng": "^4.20.2",
+    "antd": "^5.17.0",
+    "bootstrap-icons": "^1.11.3",
+    "date-fns": "^2.30.0",
+    "jwt-decode": "^4.0.0",
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-media-recorder": "^1.6.6",
+    "react-router-dom": "^6.22.3",
+    "web-vitals": "^2.1.4",
+    "zego-zim-web": "^2.15.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.7"
+  }
+}
